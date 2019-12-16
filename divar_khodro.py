@@ -72,7 +72,7 @@ def cal_divar(year,milage,car,city):
     
     a=np.array(a)
     a=a.reshape(1,-1)
-    c=2.3
+    c=1.5
     print('price is : ',int(reg.predict(a)*c))
 
 #===========================================
