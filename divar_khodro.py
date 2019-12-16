@@ -77,9 +77,9 @@ def cal_divar(year,milage,car,city):
 
 #===========================================
 
-y=input('year?')
-m=input('milage?')
-model=input('car model?')
-c=input('your city?')
+y=input('year? (Year of car production) ')
+m=input('milage? (to KM)')
+model=input('car model?(input a number: 1=Pickup|2=p206 |3=p405 |4=p.pars|5=peykan|6=pride|7=pride.hback|8=samand)')
+c=input('your city?(input a number: 1=ahwaz|2=isfahan|3=karaj|4=kermanshah|5=mashhad|6=qom|7=shiraz|8=tabriz|9=tehran)')
 
 cal_divar(int(y),int(m),int(model),int(c))
